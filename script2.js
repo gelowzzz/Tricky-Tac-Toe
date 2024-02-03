@@ -54,7 +54,8 @@ function btnreturn() {
     draws = 0;
 	updateScoreboard();
 	document.querySelector('.endgame').style.display = 'none';
-    document.querySelector('.pickgamemode').style.display = 'none';
+    	document.querySelector('.pickgamemode').style.display = 'none';
+	document.querySelector('.roundwin').style.display = 'none';
 	document.querySelector('#table').style.visibility = 'Hidden';
 	document.querySelector('#scoreboard').style.visibility = 'Hidden';
 	document.querySelector('.returndiv').style.visibility = 'Hidden';
