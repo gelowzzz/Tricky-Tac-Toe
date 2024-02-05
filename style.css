@@ -28,12 +28,12 @@ table {
 	min-height: 500px;
 	background-color: #CBC3E3;
 	margin: 50px auto;
-	padding: center; //added padding to center it more
+	padding: center; /* added padding to center it more */
 }
 
 #scoreboard {
 	
-    font-family:  "Comic Sans MS", cursive, sans-serif;
+    	font-family: '8BIT WONDER', sans-serif; /* "Comic Sans MS", cursive, sans-serif; */
 	text-align: center;
 	font-size: 25px;
 	padding: center;
@@ -41,7 +41,7 @@ table {
 }
 
 #startbtn:hover {
-	background-color: #AB83A1;
+    background-color: #AB83A1;
     border: 2px solid #AB83A1;  /*remove #f15152 colors (pale red for HOVER)*/
 }
 
@@ -49,7 +49,7 @@ table {
     display: inline-block;
     padding: 10px 20px;
     font-size: 30px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: '8BIT WONDER', sans-serif; /* "Comic Sans MS", cursive, sans-serif; */
     text-align: center;
     text-decoration: none;
     cursor: pointer;
@@ -76,9 +76,9 @@ table {
     padding-bottom: 50px;
     text-align: center;
     border-radius: 5px;
-    color: black;
+    color: #400080;
     font-size: 4em;
-    font-family: 'Honk', sans-serif ;
+    font-family: '8BIT WONDER', sans-serif; /* 'Honk', sans-serif ; */
 }
 
 
@@ -96,16 +96,16 @@ table {
     border-radius: 5px;
     color: black;
     font-size: 4em;
-    font-family: 'Honk', sans-serif ;
+    font-family: '8BIT WONDER', sans-serif; /* 'Honk', sans-serif ; */
 	border-radius: 20px;
 }
 
 .pickgamemode button {
-	width: 300px;
+    width: 300px;
     display: inline-block;
     padding: 10px 20px;
-    font-size: 25px;
-	font-family:  "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+    font-family: '8BIT WONDER', sans-serif; /* "Comic Sans MS", cursive, sans-serif; */
     text-align: center;
     text-decoration: none;
     cursor: pointer;
@@ -146,16 +146,16 @@ table {
     border-radius: 5px;
     color: black;
     font-size: 4em;
-    font-family: 'Honk', sans-serif ;
+    font-family: '8BIT WONDER', sans-serif; /* 'Honk', sans-serif ; */
 }
 
 
 .aimode button {
-	width: 300px;
+    width: 300px;
     display: inline-block;
     padding: 10px 20px;
     font-size: 25px;
-	font-family:  "Comic Sans MS", cursive, sans-serif;
+    font-family: '8BIT WONDER', sans-serif; /* "Comic Sans MS", cursive, sans-serif; */
     text-align: center;
     text-decoration: none;
     cursor: pointer;
@@ -197,7 +197,7 @@ table {
 }
 
 #return {
-	font-family:  "Comic Sans MS", cursive, sans-serif;
+	font-family:  '8BIT WONDER', sans-serif; /* "Comic Sans MS", cursive, sans-serif; */
 	color: #fff;
 	width: 200px;
 	font-size: 30px;
@@ -226,7 +226,7 @@ table {
     border-radius: 5px;
     color: black;
     font-size: 3em;
-    font-family: 'Honk', sans-serif ;
+    font-family: '8BIT WONDER', sans-serif; /* 'Honk', sans-serif ; */
 }
 
 .roundwin button {
@@ -265,17 +265,17 @@ table {
     padding-bottom: 50px;
     text-align: center;
     border-radius: 50px;
-    color: black;
+    color:  #ff6600;
     font-size: 100px;
-    font-family: 'Honk', sans-serif ;
-	background-color: #CBC3E3;
+    font-family: '8BIT WONDER', sans-serif; /* 'Honk', sans-serif ; */
+    background-color: #CBC3E3;
 }
 
 .startpage button {
     display: inline-block;
     padding: 10px 20px;
     font-size: 50px;
-	font-family:  "Comic Sans MS", cursive, sans-serif;
+    font-family: '8BIT WONDER', sans-serif; /* "Comic Sans MS", cursive, sans-serif; */
     text-align: center;
     text-decoration: none;
     cursor: pointer;
