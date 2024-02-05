@@ -54,7 +54,7 @@ function btnreturn() {
     draws = 0;
 	updateScoreboard();
 	document.querySelector('.endgame').style.display = 'none';
-    	document.querySelector('.pickgamemode').style.display = 'none';
+    document.querySelector('.pickgamemode').style.display = 'none';
 	document.querySelector('.roundwin').style.display = 'none';
 	document.querySelector('#table').style.visibility = 'Hidden';
 	document.querySelector('#scoreboard').style.visibility = 'Hidden';
@@ -228,7 +228,7 @@ function turnClick(event) {
 
         if (isAIPlayer && currentPlayer === player2 && !checkWin(origBoard, player1) && !checkWin(origBoard, player2) && !checkTie()) {
             aiMove();
-            checkGameOver();
+            //checkGameOver();
         }
     }
 }
@@ -368,7 +368,7 @@ function gameOver(gameWon) {
         declareWinner(`${gameWon.player}`);
     } else {
 
-        updateScore('draw'); //added logic to update scoreboard
+        //updateScore('draw'); //added logic to update scoreboard !--changed draw to draws??
         declareWinner();
         document.querySelector('.roundwin').style.display = 'block';
         document.querySelector('.roundwin .text1').innerText = 'Draw!';
@@ -442,6 +442,7 @@ function checkGameOver() {
     if (checkWin(origBoard, player2)) {
         declareWinner(`O`);
     } else if (checkTie()) {
+		
         declareWinner(`It's a Draw!`);
     }
     currentPlayer = player1;
@@ -452,7 +453,7 @@ function updateScore(player) {
         player1Wins++;
     } else if (player === player2) {
         player2Wins++;
-    } else {
+    } else if (player == 'draw') {  //modified added else if with function instead of just being else if (player === draws) ---> player1 || player2
         draws++;
     }
     updateScoreboard();
